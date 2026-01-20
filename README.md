@@ -3,7 +3,7 @@
 ## Introduction
 
 Repository for administration and security management in PostgreSQL 16.
-Focus on hardening and RBAC.
+Focus on hardening, RBAC and Business Logic.
 
 ## Hardening
 
