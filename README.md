@@ -34,11 +34,6 @@ Implementation of a Role-Based Access Control hierarchy to ensure the principle 
 	- Command: 'psql -h 127.0.0.1 -U bastihan_admin -d dba_laboratorio'.
 	- Result: Successful. The user can create tables, insert data, and manage the 'ventas' schema.
 
-### Key Implementation Features:
-	- Schema Isolation: Revoked all default permissions from the 'public' schema to prevent unauthorized object creation.
-	- Inheritance: Roles are structured so that 'readwrite_grp' inherits from 'readonly_grp', centralizing permission management.
-	- Scalability: Configured 'ALTER DEFAULT PRIVILEGES' to ensure future tables are automatically accessible to the audit/read roles.
-
 ## Advanced SQL and Auditing (Window Functions)
 
 Implementation of analytical queries to monitor user activity patterns without losing data granularity.
