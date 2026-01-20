@@ -1,0 +1,15 @@
+
+.vscode/
+.history/
+
+.DS_Store
+.directory
+*.swp
+*.tmp
+
+*.log
+pg_log/
+
+.env
+*.session
+secrets.sql
