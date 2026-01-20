@@ -15,9 +15,9 @@ INSERT INTO ventas.logs_actividad(usuario,fecha_acceso,kb_descargados)
 VALUES
 ('bastihan_admin','2026-01-15 08:30:00',1500),
 ('bastihan_admin','2026-01-15 10:45:00',3200),
-('ana_analista','2026-01-15 09:00:00,500),
-('ana_analista,'2026-01-15 11:30:00',1100),
-('bastihan_admin',2026-01-15 14:20:00',800);
+('ana_analista','2026-01-15 09:00:00',500),
+('ana_analista','2026-01-15 11:30:00',1100),
+('bastihan_admin','2026-01-15 14:20:00',800);
 
 SELECT
 	usuario,
